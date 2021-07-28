@@ -1,8 +1,8 @@
-string uid = "A701025";
-string pwd = "#EDC4rfv";
-string domain = "terapower\\";
+string uid = "user";
+string pwd = "password";
+string domain = "domain\\";
 
-var ldi = new LdapDirectoryIdentifier("TeraSrv00025.terapower.com.tw", 389);
+var ldi = new LdapDirectoryIdentifier("ldap.com.tw", 389);
 using (var ldapConnection =
         new System.DirectoryServices.Protocols.LdapConnection(ldi))
 {
